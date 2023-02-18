@@ -1,6 +1,8 @@
 import { extendTheme } from "@chakra-ui/vue-next";
 import { Button, IconButton } from "./components";
 import { globalStyles } from "./global-styles";
+import { layerStyles } from "./layer-styles";
+import { textStyles } from "./text-styles";
 import { semanticTokens } from "./semantic-tokens";
 import "@fontsource/ibm-plex-mono";
 import "@fontsource/dm-sans";
@@ -34,6 +36,7 @@ export const extendedTheme = extendTheme({
   styles: {
     global: globalStyles,
   },
-
+  layerStyles,
+  textStyles,
   semanticTokens,
 });

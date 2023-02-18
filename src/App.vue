@@ -35,7 +35,7 @@
             text-decoration="underline"
             text-decoration-style="dashed"
             cursor="pointer"
-            href="https://nuxt.com"
+            href="https://vuejs.org"
             target="_blank"
             display="inline-flex"
             justify-content="flex-start"
@@ -92,7 +92,7 @@
         />
         <c-icon-button
           as="a"
-          href="https://nuxt.com"
+          href="https://vuejs.org"
           target="_blank"
           aria-label="Join Discord"
           rounded="none"

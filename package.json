@@ -12,8 +12,9 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@chakra-ui/styled-system": "^2.6.1",
     "@chakra-ui/vue-auto-import": "0.0.0-dev-20230218191716",
-    "@chakra-ui/vue-next": "0.0.0-dev-20230218191716",
+    "@chakra-ui/vue-next": "0.0.0-dev-20230225153612",
     "@emotion/css": "^11.10.6",
     "@fontsource/dm-sans": "^4.5.9",
     "@fontsource/ibm-plex-mono": "^4.5.13",

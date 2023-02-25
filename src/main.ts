@@ -1,14 +1,11 @@
-import ChakraUI, { extendChakra } from "@chakra-ui/vue-next";
+import { createChakra } from "@chakra-ui/vue-next";
 import { createApp } from "vue";
 import App from "./App.vue";
 import { extendedTheme } from "./theme";
 
-createApp(App)
-  .use(
-    ChakraUI,
-    extendChakra({
-      extendTheme: extendedTheme,
-      cssReset: true,
-    })
-  )
-  .mount("#app");
+const ChakraUI = createChakra({
+  extendTheme: extendedTheme,
+  cssReset: true,
+});
+
+createApp(App).use(ChakraUI).mount("#app");

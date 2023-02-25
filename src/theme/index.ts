@@ -4,7 +4,6 @@ import { globalStyles } from "./global-styles";
 import { layerStyles } from "./layer-styles";
 import { textStyles } from "./text-styles";
 import { semanticTokens } from "./semantic-tokens";
-import "@fontsource/ibm-plex-mono";
 import "@fontsource/dm-sans";
 import "@fontsource/dm-sans/700.css";
 import "@fontsource/dm-sans/400.css";
@@ -13,7 +12,6 @@ export const extendedTheme = extendTheme({
   fonts: {
     heading: "DM Sans, sans-serif",
     body: "DM Sans, sans-serif",
-    mono: "IBM Plex Mono",
   },
   colors: {
     velvet: {

@@ -148,8 +148,8 @@ const theme = useTheme();
 const colors = computed(
   () =>
     new Set(
-      Object.keys(theme.colors)
-        .filter((color) => typeof theme.colors[color] === "object")
+      Object.keys(theme.colors!)
+        .filter((color) => typeof theme.colors![color] === "object")
         .filter((color) => !["blackAlpha", "whiteAlpha"].includes(color))
     )
 );

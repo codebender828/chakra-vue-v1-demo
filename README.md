@@ -1,36 +1,34 @@
-# vue3
+# Chakra UI Vue Next v1 Starter
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+This repo is a starter template for the next version of Chakra UI Vue v1. v1 was rewriten from the ground up with the following new features:
+- TS support
+- Powered by UI state machines
+- Improved theming API design. You can see the `theme` to see the new theming API usage
+- Semantic Tokens
+- More low-level hooks and composables
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Documentation (Heavily WIP)
+> https://next.vue.chakra-ui.com
 
-## Type Support for `.vue` Imports in TS
+If you would like to contribute to the docs, or component development, please reach out to me on Twitter.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+### Got questions?
+DM me on [Twitter](https://twitter.com/codebender828)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+#### Contributing
+The Chakra UI Vue team is composed of only 4 people maintaining Chakra UI in our free time. So we're always happy to get some helping hands! If this interests, please DM me on [Twitter](https://twitter.com/codebender828)
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Setup
 
 ```sh
-npm install
+pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### Dev server
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 ### Type-Check, Compile and Minify for Production

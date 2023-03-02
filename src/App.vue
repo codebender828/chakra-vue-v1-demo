@@ -92,7 +92,7 @@
         </c-wrap-item>
         <c-wrap-item>
           <c-link
-            href="https://https://github.com/codebender828/chakra-vue-v1-demo#readme"
+            href="https://github.com/codebender828/chakra-vue-v1-demo#readme"
           >
             <c-button
               size="lg"

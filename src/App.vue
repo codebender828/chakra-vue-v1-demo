@@ -56,6 +56,7 @@
       >
         <c-wrap-item v-for="color in colors" :key="color">
           <c-circle
+            as="button"
             box-size="8"
             :bg="`${color}.400`"
             cursor="pointer"
@@ -64,7 +65,7 @@
               transform: 'scale(1.1)',
               transition: 'all 0.2s',
             }"
-            @mouseenter="selectedColor.color = color"
+            @click="selectedColor.color = color"
           />
         </c-wrap-item>
       </c-wrap>
